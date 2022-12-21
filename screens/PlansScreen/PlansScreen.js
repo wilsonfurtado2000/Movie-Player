@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import db from "../../firebase";
+import db from "../../Firebase/firebase";
 import { selectUser } from "../app/features/userSlice";
 import { loadStripe } from "@stripe/stripe-js";
 import "./PlansScreen.css";
